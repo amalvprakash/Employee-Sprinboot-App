@@ -30,4 +30,9 @@ public class EmployeeController {
     public String Search(){
         return "Search Employee";
     }
+
+    @GetMapping("/viewall")
+    public String ViewAll(){
+        return "View all employees";
+    }
 }
