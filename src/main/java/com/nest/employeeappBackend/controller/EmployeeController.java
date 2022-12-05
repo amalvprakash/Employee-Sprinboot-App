@@ -23,6 +23,11 @@ public class EmployeeController {
 
     @GetMapping("/delete")
     public String Delete(){
-        return "Delete Employee"
+        return "Delete Employee";
+    }
+
+    @GetMapping("/search")
+    public String Search(){
+        return "Search Employee";
     }
 }
