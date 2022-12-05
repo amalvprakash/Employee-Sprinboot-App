@@ -15,4 +15,9 @@ public class EmployeeController {
     public String Add(){
         return "Add employee";
     }
+
+    @GetMapping("/edit")
+    public String Edit(){
+        return "Edit Employee";
+    }
 }
